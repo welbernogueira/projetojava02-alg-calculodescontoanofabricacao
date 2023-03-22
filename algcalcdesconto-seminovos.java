@@ -20,10 +20,10 @@ public class Main () {
              while (desejaRepetir == 's' || desejaRepetir == 'S') {
 
         //entrada de dados
-           System.out.println("Digite o ano de fabricação");
+           System.out.println("Digite o ano de fabricaÃ§Ã£o");
            anoFabricacao = leitor.nextInt();
 
-           System.out.println("Digite o valor do veículo");
+           System.out.println("Digite o valor do veÃ­culo");
            valorCarro = leitor.nextInt();
  
 
@@ -39,9 +39,9 @@ public class Main () {
                  valorPagar = valorVeiculo - valorDesconto;
                  
          System.out.println("O valor do desconto foi de: " + valorDesconto);
-         System.out.println("O valor que deve ser pago é: " + valorPagar);
+         System.out.println("O valor que deve ser pago Ã©: " + valorPagar);
  
-         System.out.println("Deseja fazer mais cadastros? S - Sim / N - Não");
+         System.out.println("Deseja fazer mais cadastros? S - Sim / N - NÃ£o");
          desejaRepetir = leitor.next().charAt(0);
 
       }
